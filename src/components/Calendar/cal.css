@@ -1,0 +1,50 @@
+/* Add this to your CSS */
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ff0000; /* You can customize the color */
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+
+ /* cal.css */
+
+.custom-calendar {
+  width: 100%; /* Hacer que el calendario ocupe el 100% del ancho del contenedor padre */
+  max-width: 800px; /* Establecer un ancho máximo para evitar que el calendario sea demasiado ancho en pantallas grandes */
+  font-size: 18px; /* Ajustar el tamaño de fuente del calendario */
+}
+
+.react-calendar {
+  max-width: 800px; /* Ajustar el ancho máximo del calendario */
+  margin: 0 auto; /* Centrar el calendario dentro del contenedor */
+  font-size: 18px; /* Ajustar el tamaño de fuente del calendario */
+}
+
+.react-calendar__month-view {
+  padding: 20px; /* Aumentar el espacio interior del mes para que se vea más grande */
+}
+
+.selected-dot {
+  background-color: #fff; /* Color del punto indicador cuando el día está seleccionado */
+}
+
+.dot {
+  width: 12px; /* Aumentar el tamaño del punto */
+  height: 12px;
+  background-color: #ffbb00;
+  border-radius: 50%;
+}
+/* cal.css */
+
+.center-title {
+  text-align: center;
+}
+
+.today {
+  background-color: #add8e6; /* Celeste pastel */
+  color: white;
+  border-radius: 50%;
+}
+
